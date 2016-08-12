@@ -1,0 +1,11 @@
+{
+  "name": "react-lumberjack",
+  "version": "1.0.0",
+  "description": "Log setState calls in your React app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Florence <@ryanflorence>",
+  "license": "MIT"
+}
