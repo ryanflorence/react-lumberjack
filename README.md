@@ -3,6 +3,8 @@ React Lumberjack
 
 Logs `setState` calls across your app for debugging bliss.
 
+![screenshot](./ss.png)
+
 Installation
 ------------
 
