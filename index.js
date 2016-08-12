@@ -13,11 +13,6 @@
   React.Component.prototype.setState = function(nextState) {
     console.group(this.constructor.name)
     console.trace()
-    if (this.shouldComponentUpdate) {
-      console.log('shouldComponentUpdate', (
-        this.shouldComponentUpdate(this.props, nextState)
-      ))
-    }
     console.log('props', this.props)
     console.log('state', this.state)
     console.log('nextState', typeof nextState === 'function' ? (
