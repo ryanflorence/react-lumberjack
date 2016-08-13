@@ -33,3 +33,19 @@ or
 
 Make sure not to include it in your production build, ofc.
 
+"Time Travel"
+-------------
+
+```js
+LumberJack.back()
+LumberJack.forward()
+```
+
+This is super hacky, has 8 trillion edge-cases, but I'm finding it
+useful for debugging a few states back. If a component is unmounted at
+some point, there's no going back.
+
+Consider it a fun proof-of-concept that at least one person (me) finds
+useful :P
+
+
