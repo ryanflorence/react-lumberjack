@@ -71,7 +71,7 @@
     }
   }
 
-  window.LumberJack = { back: back, forward: forward }
+  window.Lumberjack = { back: back, forward: forward }
 
 }));;;;;;;;;;;;;;;;;
 

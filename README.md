@@ -37,8 +37,8 @@ Make sure not to include it in your production build, ofc.
 -------------
 
 ```js
-LumberJack.back()
-LumberJack.forward()
+Lumberjack.back()
+Lumberjack.forward()
 ```
 
 This is super hacky, has 8 trillion edge-cases, but I'm finding it
