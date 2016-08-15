@@ -17,6 +17,8 @@
   var rollingForward = false
 
   React.Component.prototype.setState = function(nextState) {
+    if (this.constructor.name === 'Connect') return setState.apply(this, arguments)
+
     console.group(this.constructor.name)
     if (rollingBack) {
       console.log('rollback')
@@ -74,5 +76,3 @@
   window.Lumberjack = { back: back, forward: forward }
 
 }));;;;;;;;;;;;;;;;;
-
-
