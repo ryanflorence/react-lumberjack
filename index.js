@@ -17,7 +17,7 @@
   var rollingForward = false
 
   React.Component.prototype.setState = function(nextState) {
-    if (this.constructor.name === 'Connect') return setState.apply(this, arguments)
+    if (this.constructor.name === 'Connect' || this.constructor.name === 'RouteCSSTransitionGroup') return setState.apply(this, arguments)
 
     console.group(this.constructor.name)
     if (rollingBack) {
